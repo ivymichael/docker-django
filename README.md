@@ -16,3 +16,4 @@ docker-compose -f docker-compose.prod.yml exec web python manage.py collectstati
 
 # Reference
 
+https://github.com/XiangHuang1992/django-on-docker

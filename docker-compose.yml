@@ -24,7 +24,9 @@ services:
   db:
     image: postgres
     volumes:
+      #- ./site_data/postgres/dev:/var/lib/postgresql/data
       - django_pg:/var/lib/postgresql/data
+
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres

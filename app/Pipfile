@@ -12,6 +12,8 @@ autopep8 = "*"
 django = "*"
 django-split-settings = "*"
 gunicorn = "*"
+djangorestframework = "*"
+django-rest-knox = "*"
 
 [requires]
 python_version = "3.6"
